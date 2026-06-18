@@ -1,0 +1,14 @@
+name: TDS Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 24ds2000085@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
